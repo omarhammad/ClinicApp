@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5fb0c9"
+    android:orientation="vertical"
+    tools:context="com.example.desmond.clinc.View.ProfileFragment">
+
+
+    <RelativeLayout
+        android:id="@+id/login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:elevation="6dp">
+
+        <LinearLayout
+            android:id="@+id/edit_profile_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <EditText
+                android:id="@+id/edit_fname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_user"
+                android:drawingCacheQuality="high"
+                android:hint="First Name"
+                android:inputType="textEmailAddress"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/edit_lname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_user"
+                android:drawingCacheQuality="high"
+                android:hint="Last Name"
+                android:inputType="textEmailAddress"
+                android:singleLine="true" />
+
+
+
+            <EditText
+                android:id="@+id/edit_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_map_marker"
+                android:drawingCacheQuality="high"
+                android:hint="Country"
+                android:inputType="textEmailAddress"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/edit_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_uesr_location"
+                android:drawingCacheQuality="high"
+                android:hint="City"
+                android:inputType="textEmailAddress"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/edit_phonenum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_mobile"
+                android:drawingCacheQuality="high"
+                android:hint="Phone Number"
+                android:inputType="textEmailAddress"
+                android:singleLine="true" />
+        </LinearLayout>
+
+
+        <ImageButton
+            android:id="@+id/save_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/edit_profile_layout"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/edit_button_2"
+            android:elevation="6dp"
+            android:src="@drawable/ic_done" />
+
+        <ImageButton
+            android:id="@+id/cancel_btn"
+            android:layout_toLeftOf="@+id/save_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/edit_profile_layout"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_cancel"
+            android:background="@drawable/danger_btn"
+
+            android:elevation="6dp"
+ />
+
+    </RelativeLayout>
+
+
+</FrameLayout>
+
+

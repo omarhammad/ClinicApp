@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/appointments_container"
+    android:layout_height="match_parent"
+    android:background="#5fb0c9"
+    tools:context="com.example.desmond.clinc.View.ShowListDiagnosis">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/diagnosis_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:layout_gravity="center|top"
+        android:layout_margin="8dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_diagnosis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:backgroundTint="#d67601"
+        android:scaleType="center"
+        android:src="@drawable/ic_add"
+
+        />
+
+</android.support.design.widget.CoordinatorLayout>

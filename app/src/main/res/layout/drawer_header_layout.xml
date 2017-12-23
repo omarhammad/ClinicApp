@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:background="@drawable/header_nav">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/nav_profile"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/profile_img" />
+
+    <TextView
+        android:id="@+id/nav_username"
+        android:layout_width="wrap_content"
+        android:text="Omar hammad"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/nav_profile"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/draw_available_time"
+    android:orientation="vertical"
+    android:layout_marginBottom="2dp"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/appointment_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10:00 AM - 11:00 AM"
+        android:textAlignment="center"
+        android:textColor="#3a48a3"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/appointment_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Saturday, 9/12/2017"
+        android:textColor="#6876ba"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5fb0c9"
+
+    tools:context="com.example.desmond.clinc.View.CreateAppointment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="#fff"
+        android:elevation="6dp">
+
+
+        <ImageView
+            android:id="@+id/clock"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/date"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_clock" />
+
+        <!--11:00 AM-->
+        <TextView
+            android:id="@+id/create_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/date"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:hint="00:00 AM"
+            android:layout_toRightOf="@+id/clock"
+            android:text=""
+            android:textColor="#3a48a3"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/date"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_calendar" />
+
+        <!--Saturday, 9/12/2017-->
+        <TextView
+            android:id="@+id/create_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/date"
+            android:hint="Day, 01/01/2000"
+            android:textColor="#6876ba"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/pick_time_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/pick_date_btn"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/edit_button_2"
+            android:padding="5dp"
+            android:text="Pick Time"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/pick_date_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/edit_button_2"
+            android:padding="5dp"
+            android:text="Pick Date"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/create_appointment"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edit_button"
+            android:elevation="6dp"
+            android:text="Done"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

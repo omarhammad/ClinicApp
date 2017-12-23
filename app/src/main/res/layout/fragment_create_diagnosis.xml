@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5fb0c9"
+    android:windowSoftInputMode="adjustPan"
+    tools:context="com.example.desmond.clinc.View.CreateDiagnosis">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp"
+        android:background="#fff"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="160dp"
+            android:textColor="#d67601"
+            android:layout_marginBottom="5dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:padding="10dp"
+            android:background="@drawable/draw_edit_text"
+            android:text="Omar Hammad"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/user_email"
+            android:layout_width="240dp"
+            android:layout_below="@id/user_name"
+            android:textColor="#d67601"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:padding="10dp"
+            android:background="@drawable/draw_edit_text"
+            android:text="omarhammad767@gmail.com"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/disease_name_layout"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/user_email"
+            android:layout_marginStart="10dp"
+            android:hint="Disease Name"
+            android:textColorHint="#d67601">
+
+            <EditText
+                android:id="@+id/disease_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/draw_edit_text"
+                android:inputType="text"
+                android:textColor="#d67601"
+                android:paddingStart="5dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/diagnosis_price_layout"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/user_email"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@id/disease_name_layout"
+            android:hint="Price"
+            android:textColorHint="#d67601">
+
+            <EditText
+                android:id="@+id/diagnosis_price"
+                android:layout_width="match_parent"
+                android:textColor="#d67601"
+                android:layout_height="match_parent"
+                android:background="@drawable/draw_edit_text"
+                android:inputType="number"
+                android:maxLength="2"
+                android:paddingStart="5dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <EditText
+            android:id="@+id/diagnosis_blank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/diagnosis_price_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/draw_edit_text"
+            android:gravity="top"
+            android:hint="Enter The Diagnosis......."
+            android:lines="12"
+            android:padding="8dp"
+            android:textColorHint="#d67601" />
+
+        <Button
+            android:id="@+id/next_btn"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/edit_button_2"
+            android:elevation="6dp"
+            android:text="Next"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="8dp"
+            android:layout_toLeftOf="@+id/next_btn"
+            android:background="@drawable/danger_btn"
+            android:elevation="6dp"
+            android:text="Cancel"
+            android:textAllCaps="false" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

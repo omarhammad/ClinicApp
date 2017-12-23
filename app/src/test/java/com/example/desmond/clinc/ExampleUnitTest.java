@@ -1,0 +1,21 @@
+package com.example.desmond.clinc;
+
+import com.example.desmond.clinc.Model.Firebase.AuthenticationDB;
+
+import org.junit.Test;
+
+/**
+ * Example local unit test, which will execute on the development machine (host).
+ *
+ * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
+ */
+public class ExampleUnitTest {
+
+    @Test
+    public void verifyLogin() {
+
+
+
+    }
+
+}

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "58896657069",
+    "firebase_url": "https://clinc-af831.firebaseio.com",
+    "project_id": "clinc-af831",
+    "storage_bucket": "clinc-af831.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58896657069:android:4c892dad214ff2fd",
+        "android_client_info": {
+          "package_name": "com.example.desmond.clinc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58896657069-qhvpnjh2irmd3qd2l2d53c0gsaar72uc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.desmond.clinc",
+            "certificate_hash": "78982991d87187d8f983f2da0a78025cdd8b96cc"
+          }
+        },
+        {
+          "client_id": "58896657069-v2jun1h2cve0hbmgkfcvve5m7b8752sg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7czY9xroCb4UKOSNvjfPodXCHdTY_9pg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58896657069-v2jun1h2cve0hbmgkfcvve5m7b8752sg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

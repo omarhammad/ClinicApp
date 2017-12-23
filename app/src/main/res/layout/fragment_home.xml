@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.desmond.clinc.View.HomeFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+
+            android:id="@+id/health_advices"
+            android:layout_width="match_parent"
+            android:layout_height="320dp" />
+
+        <include
+            android:id="@+id/upcoming_appointment"
+            layout="@layout/appointment_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/last_diagnosis"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="8dp" />
+
+        <include
+            android:id="@+id/no_upcoming"
+            layout="@layout/no_upcoming_appointment_layout"
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+            android:layout_above="@id/no-diagnossis"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp" />
+
+        <include
+            android:id="@+id/no-diagnossis"
+            layout="@layout/no_upcoming_appointment_layout"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"/>
+
+        <include
+            android:id="@+id/last_diagnosis"
+            layout="@layout/diagnosis_list_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp" />
+
+    </RelativeLayout>
+</FrameLayout>

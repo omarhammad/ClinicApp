@@ -1,0 +1,82 @@
+{
+  "users" : {
+    "doctor" : {
+      "5LdwpvB5FtgCUokHMBBsYYq4Imn1@DOCTOR" : {
+        "address" : {
+          "city" : "Nusirat",
+          "country" : "Palestine"
+        },
+        "email" : "hassanKhatib767@gmail.com",
+        "firstName" : "Hassan",
+        "lastName" : "khatib",
+        "phoneNum" : "0595896051",
+        "specialist" : "Eyes"
+      },
+      "IuoUtytOO4fSUmhPQAfVuicEr9j1@DOCTOR" : {
+        "address" : {
+          "city" : "Jala",
+          "country" : "Palestine"
+        },
+        "email" : "odayoday567@gmail.com",
+        "firstName" : "Oday",
+        "lastName" : "Ataallah",
+        "phoneNum" : "144629892260",
+        "specialist" : "Eyes"
+      },
+      "Jfyl2xYvnPOFTYMzt2QJnho8NjZ2@DOCTOR" : {
+        "address" : {
+          "city" : "Gaza",
+          "country" : "Palestine"
+        },
+        "email" : "Mohammad767@gmail.com",
+        "firstName" : "Mahmoud",
+        "lastName" : "Salah",
+        "phoneNum" : "05958921431",
+        "specialist" : "general"
+      },
+      "uhg0vItOGkSuK5satZqmooo1w9A2@DOCTOR" : {
+        "address" : {
+          "city" : "Cairo",
+          "country" : "Egypt"
+        },
+        "email" : "yarafllower767@gmail.com",
+        "firstName" : "Yara",
+        "lastName" : "Hodda",
+        "phoneNum" : "13465919",
+        "specialist" : "Bones "
+      }
+    },
+    "patient" : {
+      "LxR2Go3IWqYAiLFdZdDS5meoHGz2@PATIENT" : {
+        "address" : {
+          "city" : "Rafah",
+          "country" : "Palestine"
+        },
+        "email" : "haneen767@gmail.com",
+        "firstName" : "Haneen",
+        "lastName" : "Alkhatib",
+        "phoneNum" : "059531647"
+      },
+      "hcdB7yR4aQPbbMVMm3IjmuAX8iT2@PATIENT" : {
+        "address" : {
+          "city" : "Washington",
+          "country" : "USA"
+        },
+        "email" : "Ramyhammad767@gmail.com",
+        "firstName" : "Ramy",
+        "lastName" : "Helow",
+        "phoneNum" : "0598275904"
+      },
+      "x4m7Ys6ybEe4st8tvjzUWxvQWpq2@PATIENT" : {
+        "address" : {
+          "city" : "Rafah",
+          "country" : "Palestine"
+        },
+        "email" : "omarhammad767@gmail.com",
+        "firstName" : "Omar",
+        "lastName" : "Hammad",
+        "phoneNum" : "76667886"
+      }
+    }
+  }
+}
